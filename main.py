@@ -2,7 +2,7 @@ import starwarsAPI
 import yesnoAPI
 
 def main():
-  print("=====This program simulates a fight between 2 Star Wars characters, with the help of a random Yes/No Generator============================")
+  print("=====This program simulates a fight between 2 Star Wars characters,\n with the help of a random Yes/No Generator==========================")
   num1 = int(input("Choose a number between 1 and 83: "))
   num2 = int(input("Choose another number between 1 and 83: "))
   character1 = starwarsAPI.StarWarsAPI(character = num1)
